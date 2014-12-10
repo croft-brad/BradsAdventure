@@ -68,7 +68,8 @@ public class Player implements Serializable {
     }
 
     public void setName(String playersName) {
-//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.playerName = playersName;
+
     }
 
 }

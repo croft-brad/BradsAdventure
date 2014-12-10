@@ -10,6 +10,7 @@ import model.Keys;
 import model.Map;
 import model.Player;
 import model.Villain;
+import view.StartProgramView;
 
 /**
  *
@@ -18,6 +19,10 @@ import model.Villain;
 public class BradsAdventure {
 
     public static void main(String[] args) {
+        
+        // Start the "StartProgramView" class
+        StartProgramView startProgramView = new StartProgramView();
+        startProgramView.startProgram();
 
         // Player Information
         Player playerOne = new Player();

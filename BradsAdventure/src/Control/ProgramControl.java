@@ -8,7 +8,7 @@ import model.Player;
  * @author Brad Croft me@bradcroft.com
  */
 public class ProgramControl {
-    
+
     private static Player player = null; // Current player of the game
     private static Game game = null; // Current game being played
 
@@ -29,12 +29,12 @@ public class ProgramControl {
     }
 
     public static Player createPlayer(String playersName) {
-        //System.out.println("\n createPlayer called.");
+        System.out.println("\n createPlayer called.");
         Player player = new Player();
         player.setName(playersName);
-        
+
         ProgramControl.setPlayer(player);
-        
+
         return player;
     }
 

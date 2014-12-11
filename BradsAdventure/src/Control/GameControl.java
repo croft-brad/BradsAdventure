@@ -4,10 +4,16 @@
 // game).
 package Control;
 
+import model.Player;
+
 /**
  *
  * @author Brad Croft me@bradcroft.com
  */
 public class GameControl {
+
+    public static void createNewGame(Player player) {
+        System.out.println("\n*** createNewGame stub function called ***\n");
+    }
     
 }

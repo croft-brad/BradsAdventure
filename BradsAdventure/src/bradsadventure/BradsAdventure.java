@@ -18,8 +18,15 @@ import view.StartProgramView;
  */
 public class BradsAdventure {
 
+    private static Player player = null;
+
+    public static Player getPlayer() {
+
+        return player;
+    }
+
     public static void main(String[] args) {
-        
+
         // Start the "StartProgramView" class
         StartProgramView startProgramView = new StartProgramView();
         startProgramView.startProgram();
@@ -65,7 +72,4 @@ public class BradsAdventure {
 
     }
 
-    public static void setPlayer(Player player) {
-    //    throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 }

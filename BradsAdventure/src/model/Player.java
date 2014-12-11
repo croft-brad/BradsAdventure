@@ -71,7 +71,4 @@ public class Player implements Serializable {
         this.playerName = playersName;
 
     }
-
-    
-
 }

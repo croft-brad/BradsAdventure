@@ -8,7 +8,7 @@ public class MainMenuView {
 
     private final String MENU = "\n++++++++++++++++++++++++++++++++++++++++"
             + "                          Main Menu               "
-            + "            n++++++++++++++++++++++++++++++++++++++++"
+            + "            \n++++++++++++++++++++++++++++++++++++++++"
             + "            \n N - New game                         "
             + "            \n L - Load the game                    "
             + "            \n S - Save the game                    "
@@ -60,7 +60,7 @@ public class MainMenuView {
             case 'N': //creates and starts a new game
                 this.startNewGame();
                 break;
-            case 'G': // get and start an existing game
+            case 'L': // get and start an existing game
                 this.startExistingGame();
                 break;
             case 'H': // display help menu
@@ -98,6 +98,8 @@ public class MainMenuView {
 
     private void displayHelpMenu() {
         System.out.println("*** displayHelpMenu function called ***");
+        HelpMenuView helpMenu = new HelpMenuView();
+        helpMenu.displayMenu();
     }
 
 }

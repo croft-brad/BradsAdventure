@@ -98,35 +98,43 @@ public class HelpMenuView {
     }
 
     private void gamePlayHelpView() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        GamePlayHelpView gamePlayHelp = new GamePlayHelpView();
+        gamePlayHelp.displayMenu();
     }
 
     private void puzzleHelpView() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("\n puzzleHelpView called");
     }
 
     private void TreasureHelpView() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("\n TreasureHelpView called");
+        TreasureView treasureView = new TreasureView();
+        treasureView.displayTreasure();
+
     }
 
     private void powerCrystalHelpView() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("\n powerCrystalHelpView called");
+
     }
 
     private void clueHelpView() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("\n clueHelpView called");
+        ClueView clueMenu = new ClueView();
+        clueMenu.displayMenu();
+
     }
 
     private void villainsView() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("\n villainsView called");
     }
 
     private void keyHelpView() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("\n keyHelpView called");
     }
 
     private void winGameHelpView() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("\n winGameHelpView called");
     }
 
 }
